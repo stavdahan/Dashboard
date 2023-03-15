@@ -1,0 +1,74 @@
+.sideDrawer{
+    height: inherit;
+    position: absolute;
+    width: 428px;
+    z-index: 2;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.sideDrawer.true {
+    animation-name: moveLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.sideDrawer.false {
+    animation-name: moveRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.purpleCircle {
+  width: 80px;
+  height: 80px;
+  margin-left: 174px;
+  margin-top: 60px;
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-weight: 450;
+  font-size: 18px;
+  height: 21px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-left: 138px;
+  margin-bottom: 31px;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.delimiter {
+  background: rgba(243, 243, 243, 1);
+  height: 1px;
+  width: 100%;
+}
+
+.news{
+font-size: 15px;
+font-weight: 400;
+margin: 0px;
+margin-top: 30px;
+margin-left: 35px;
+}
+
+.subnews{
+font-size: 13px;
+font-weight: 300;
+margin-left: 35px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+@keyframes moveLeft {
+  from { left: 1440px; }
+  to { left: 1012px; }
+}
+
+@keyframes moveRight {
+  from { left: 1012px; }
+  to { left: 1440px; }
+}

@@ -1,0 +1,70 @@
+.participant {
+    height: 15px;
+    width: 428px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.right-side{
+    display: flex;
+    height: max-content;
+
+}
+.person.pic{
+    height: 35px;
+    width: 35px;
+    margin-left: 33px;
+}
+
+.person.name {
+    margin: 0px;
+    margin-right: 55px;
+    margin-top: 8px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 15px;
+    Line-height: 18px;
+}
+
+.person.check {
+    margin-top: 3px;
+    margin-right: 65px;
+    width: 84px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+.person.check.true{
+    background-color: #FFFFFF;
+    border: rgba(5, 192, 80, 1) solid 1px;
+    color: rgba(5, 192, 80, 1);
+    border-radius: 2px;
+}
+
+.person.check.false{
+    background-color: rgba(5, 192, 80, 1);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.whatsapp {
+    width: 18.4px;
+    height: 18.4px;
+    
+}
+
+.bin {
+    margin-right: 25.79px;
+    margin-left: 10px;
+    width: 14.41px;
+    height: inherit;
+    padding-top: 5px;
+}

@@ -1,0 +1,42 @@
+.dropdown{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dropdown.title{
+    width: 81px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 102px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.custom-select{
+    margin-top: 22px;
+    width: 185px;
+    height: 34px;
+    border: none;
+    background-color: rgba(246, 246, 246, 1);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.custom-select::after{
+    margin-top: 22px;
+    width: 185px;
+    height: 34px;
+    border: none;
+    background-color: rgba(246, 246, 246, 1);
+    border: rgba(5, 192, 80, 1) solid 1px;
+}
+

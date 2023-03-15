@@ -1,0 +1,134 @@
+
+.details {
+    display: flex;
+}
+.coach{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: max-content;
+margin: 0px;
+margin-top: 29.5px;
+margin-left: 79px;
+}
+
+.coach.svg {
+    width: 25.14px;
+    height: 27.61px;
+    margin: 0px;
+    padding-left: 6.43px;
+    stroke: black;
+}
+
+.coach.title{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 450;
+margin: 0px;
+margin-top: 15px;
+width: 38px;
+margin-bottom: 1px;
+line-height: 15.23px;
+align-items: center;
+}
+
+.coach.name{
+font-family: Roboto;
+font-size: 11px;
+font-weight: 300;
+margin: 0px;
+margin-bottom: 30px;
+line-height: 12.89px;
+width: 100%;
+align-items: center;
+}
+
+.time {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: max-content;
+margin: 0px;
+margin-left: 71px;
+}
+
+.time.svg {
+    width: 27.6px;
+    height: 27.6px;
+    padding: 1.2px;
+    margin: 0px;
+    margin-top: 30px;
+    padding-left: 12.2px;
+    stroke: black;
+}
+
+.time.title{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 450;
+margin: 0px;
+margin-top: 13px;
+width: 38px;
+margin-bottom: 1px;
+line-height: 15.23px;
+align-items: center;
+width: 100%;
+align-items: center;
+}
+
+.time.hour{
+
+font-family: Roboto;
+font-size: 11px;
+font-weight: 300;
+margin: 0px;
+margin-bottom: 30px;
+line-height: 12.89px;
+width: 100%;
+align-items: center;
+}
+
+.participants {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: max-content;
+margin: 0px;
+margin-left: 65px;
+}
+
+.participants.svg {
+    width: 27.6px;
+    height: 27.6px;
+    padding: 1.2px;
+    margin: 0px;
+    margin-top: 30px;
+    padding-left: 12.2px;
+    stroke: black;
+}
+
+.participants.number{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 450;
+margin: 0px;
+margin-top: 13px;
+width: 38px;
+margin-bottom: 1px;
+line-height: 15.23px;
+align-items: center;
+width: 100%;
+align-items: center;
+}
+
+.participants.p{
+
+font-family: Roboto;
+font-size: 11px;
+font-weight: 300;
+margin: 0px;
+margin-bottom: 30px;
+line-height: 12.89px;
+width: 100%;
+align-items: center;
+}

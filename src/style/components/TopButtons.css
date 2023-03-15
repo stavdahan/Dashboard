@@ -1,0 +1,73 @@
+.topButtons{
+    display: flex;
+    
+}
+
+.topButton{
+    display: flex;
+    background-color: #FFFFFF;
+    border: none;
+    top: 14px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.topButton.edit {
+    display: flex;
+    color: rgba(0, 0, 0, 1);
+    height: 20px;
+    margin-left: 22px;
+    margin-right: 30px;
+    padding: none;
+    width: 46px;
+}
+
+.topButton.edit.icon {
+    height: 18.4px;
+    width: 18.4px;
+    left: 0px;
+    top: 0.8px;
+    margin: 0px;
+}
+
+.topButton.edit.text {
+    color: rgba(0, 0, 0, 1);
+    height: 18.4px;
+    width: 18.4px;
+    left: 0px;
+    top: 0px;
+    margin: 3px;
+    margin-left: 5.8px;
+    font-family: Roboto;
+}
+
+
+.topButton.cancelClass{
+    color:rgba(255, 11, 55, 1);
+    height: 20px;
+    margin: 0px;
+    margin-left: 0.8px;
+    padding: 0px;
+    width: 99px;
+}
+
+.topButton.cancelClass.icon{
+    color:rgba(255, 11, 55, 1);
+    height: 20px;
+    width: 19.2px;
+    margin: 0px;
+    margin-left: 0.8px;
+    margin-right: 9px;
+    top: 0px
+}
+
+.topButton.cancelClass.text{
+    color:rgba(255, 11, 55, 1);
+    height: 14px;
+    width: 70px;
+    margin: 0px;
+    top: 4px;
+    bottom: 2px;
+    font-family: Roboto;
+}
